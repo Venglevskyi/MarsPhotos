@@ -1,0 +1,29 @@
+.cardCuriosity-appear {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+.cardCuriosity-appear-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 2000ms linear;
+}
+
+.cardOpportunity-appear {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+.cardOpportunity-appear-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 2000ms linear 500ms;
+}
+
+.cardSpirit-appear {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+.cardSpirit-appear-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 2000ms linear 1000ms;
+}
